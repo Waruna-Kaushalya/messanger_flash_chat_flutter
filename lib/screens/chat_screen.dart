@@ -35,7 +35,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   Expanded(
                     child: TextField(
                       onChanged: (value) {
-                        //Do something with the user input.
+                        //Do something with the user input. here
                       },
                       decoration: kMessageTextFieldDecoration,
                     ),
