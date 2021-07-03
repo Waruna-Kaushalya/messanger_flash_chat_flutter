@@ -1,3 +1,5 @@
+//lib/screens/welcome_screen.dart
+
 import 'package:flutter/material.dart';
 import 'login_screen.dart';
 import 'registration_screen.dart';
@@ -18,6 +20,10 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   @override
   void initState() {
     super.initState();
+
+    int number = 10;
+
+    // assert(number > 100);
 
     controller = AnimationController(
       duration: Duration(seconds: 1),
